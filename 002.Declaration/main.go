@@ -8,6 +8,9 @@ var b = 100
 // and nil for pointers, functions, interfaces, slices, channels, and maps.
 var c int
 
+type Darko string
+
+var d Darko
 func main()  {
 	// DECLARE a variable and assign a value (of a certain type)
 	a := 100
@@ -20,6 +23,8 @@ func main()  {
 	fmt.Println(b)
 
 	foo()
+
+	fmt.Printf("%T\n", d) // main.Darko type
 }
 
 func foo()  {
