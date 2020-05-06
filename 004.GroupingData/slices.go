@@ -30,5 +30,11 @@ func main() {
 
 	y = append(y[:2], y[4:]...)
 
-	fmt.Println(y)
+	fmt.Println(y) //  [1, 2, 5, 6, 7, 8 , 9, 10]
+
+	k := make([]int, 10, 100)
+
+	fmt.Println(k)
+	fmt.Println(len(k))
+	fmt.Println(cap(k))
 }
