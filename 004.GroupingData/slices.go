@@ -37,4 +37,11 @@ func main() {
 	fmt.Println(k)
 	fmt.Println(len(k))
 	fmt.Println(cap(k))
+
+	dk := []string{"Darko", "Klisuric"}
+	mk := []string{"Marko", "Markic"}
+
+	xp := [][]string{dk, mk}
+
+	fmt.Println(xp)
 }
