@@ -12,7 +12,7 @@ type programer struct {
 	working bool
 }
 
-func (p programer) programming()  {
+func (p programer) programming() {
 	fmt.Println("Hello from method")
 }
 
@@ -20,11 +20,10 @@ func main() {
 	p1 := programer{
 		person: person{
 			firstName: "Darko",
-			lastName: "Klisuric",
+			lastName:  "Klisuric",
 		},
 		working: true,
 	}
-
 	fmt.Println(p1)
 	p1.programming()
 }
