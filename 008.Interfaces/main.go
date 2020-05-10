@@ -6,6 +6,7 @@ type person struct {
 	firstName string
 	lastName  string
 }
+
 type secretAgent struct {
 	person
 	ltk bool
