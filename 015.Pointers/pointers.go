@@ -29,7 +29,7 @@ func main() {
 
 func foo(x int) {
 	fmt.Println(x) // 0
-	x = 43 
+	x = 43
 	fmt.Println(x) // 43
 }
 
