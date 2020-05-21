@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	pass := "password"
+	pass := "password "
 	bs, err := bcrypt.GenerateFromPassword([]byte(pass), bcrypt.MinCost)
 
 	if err != nil {
