@@ -20,5 +20,5 @@ func main() {
 		wg.Done()
 	}
 	wg.Wait()
-	fmt.Println(incrementer)
+	fmt.Println(incrementer) // 100
 }
