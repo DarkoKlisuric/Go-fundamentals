@@ -5,10 +5,10 @@ import "fmt"
 func main() {
 	a := incrementor()
 	b := incrementor()
-	fmt.Println(a()) // 1
+	fmt.Println(a()) // 01
 	fmt.Println(a()) // 2
 	fmt.Println(a()) // 3
-	fmt.Println(b()) // 1
+	fmt.Println(b()) // 01
 	fmt.Println(b()) // 2
 }
 
