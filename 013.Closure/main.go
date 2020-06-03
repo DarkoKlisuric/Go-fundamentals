@@ -5,10 +5,10 @@ import "fmt"
 func main() {
 	a := incrementor()
 	b := incrementor()
-	fmt.Println(a()) // ChannelsBlock
+	fmt.Println(a()) // 01.ChannelsBlock
 	fmt.Println(a()) // 2
 	fmt.Println(a()) // 3
-	fmt.Println(b()) // ChannelsBlock
+	fmt.Println(b()) // 01.ChannelsBlock
 	fmt.Println(b()) // 2
 }
 

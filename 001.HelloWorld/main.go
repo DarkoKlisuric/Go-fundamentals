@@ -7,6 +7,6 @@ func main() {
 }
 
 // control flow:
-// ChannelsBlock. sequence
+// 01.ChannelsBlock. sequence
 // 2. loop: iterative
 // 3. conditional

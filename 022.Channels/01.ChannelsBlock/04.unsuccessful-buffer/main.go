@@ -14,7 +14,7 @@ func main() {
 
 		goroutine 1 [chan send]:
 		main.main()
-			/home/klisuric/go/src/Go-fundamentals/022.Channels/ChannelsBlock/04.unsuccessful-buffer/main.go:9 +0x73
+			/home/klisuric/go/src/Go-fundamentals/022.Channels/01.ChannelsBlock/04.unsuccessful-buffer/main.go:9 +0x73
 		exit status 2
 	*/
 
