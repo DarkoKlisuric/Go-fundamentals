@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	c := make(chan <- int, 2) // Now can only send a value into channel
-	c2 := make(<- chan int, 2)
+	c := make(chan<- int, 2) // Now can only send a value into channel
+	c2 := make(<-chan int, 2)
 	c <- 42
 	c <- 43
 

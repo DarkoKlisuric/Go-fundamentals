@@ -13,9 +13,9 @@ func main() {
 		fmt.Println(value)
 	}
 
-	fmt.Println(x) // [ 01.simple.ChannelsBlock, 2, 3, 4, 5 ]
+	fmt.Println(x)      // [ 01.simple.ChannelsBlock, 2, 3, 4, 5 ]
 	fmt.Println(len(x)) // 5
-	fmt.Println(x[:]) // [01.simple.ChannelsBlock, 2, 3, 4, 5]
+	fmt.Println(x[:])   // [01.simple.ChannelsBlock, 2, 3, 4, 5]
 	fmt.Println(x[2:3]) // [3]
 
 	y := []int{1, 2, 3, 4, 5}
@@ -23,7 +23,7 @@ func main() {
 	y = append(y, 6, 7)
 	fmt.Println(y) // [01.simple.ChannelsBlock, 2, 3, 4, 5 6, 7]
 
-	z := []int{8, 9 ,10}
+	z := []int{8, 9, 10}
 
 	y = append(y, z...)
 	fmt.Println(y) // [01.simple.ChannelsBlock, 2, 3, 4, 5, 6, 7, 8 , 9, 10]

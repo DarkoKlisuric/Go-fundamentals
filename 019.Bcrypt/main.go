@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-    "golang.org/x/crypto/bcrypt"
+	"golang.org/x/crypto/bcrypt"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Println(pass) //
+	fmt.Println(pass)       //
 	fmt.Println(string(bs)) // Hashed password
 
 	err = bcrypt.CompareHashAndPassword(bs, []byte(pass))

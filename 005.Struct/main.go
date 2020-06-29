@@ -25,7 +25,7 @@ func main() {
 	pro1 := programer{
 		person: person{
 			firstName: "Darko",
-			lastName: "Klisueic",
+			lastName:  "Klisueic",
 		},
 		working: true,
 	}
@@ -38,10 +38,10 @@ func main() {
 
 	p3 := struct {
 		firstName string
-		lastName string
+		lastName  string
 	}{
 		firstName: "Darko",
-		lastName: "Klisuric",
+		lastName:  "Klisuric",
 	}
 
 	fmt.Println(p3)

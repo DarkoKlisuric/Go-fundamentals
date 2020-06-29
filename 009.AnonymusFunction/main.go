@@ -9,7 +9,7 @@ func main() {
 		fmt.Println("World")
 	}()
 
-	func (x int) {
+	func(x int) {
 		fmt.Println(x)
 	}(30)
 }

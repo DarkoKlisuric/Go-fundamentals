@@ -24,7 +24,7 @@ type human interface {
 	speak()
 }
 
-func bar(h human)  {
+func bar(h human) {
 	fmt.Println("I was passed in bar", h)
 }
 
@@ -39,7 +39,7 @@ func main() {
 
 	p1 := person{
 		firstName: "Doctor",
-		lastName: "No",
+		lastName:  "No",
 	}
 
 	fmt.Println(p1) // {Doctor No}

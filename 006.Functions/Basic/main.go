@@ -18,12 +18,12 @@ func foo() {
 }
 
 // EVERYTHING IN GO IS PASS BY VALUE
-func bar(s string)  {
+func bar(s string) {
 	fmt.Println("Hello,", s)
 }
 
 func woo(s string) string {
-	return fmt.Sprint("Hello from wo,",s)
+	return fmt.Sprint("Hello from wo,", s)
 }
 
 func mouse(firstName string, lastName string) (string, bool) {

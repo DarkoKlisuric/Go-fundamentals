@@ -23,11 +23,11 @@ func TestMySum(t *testing.T) {
 	}
 
 	/*
-	--- FAIL: TestMySum (0.00s)
-		main_test.go:21: Expected 42 got 43
-		main_test.go:21: Expected 84 got 83
-	FAIL
-	exit status 1
-	FAIL	Go-fundamentals/024.Testing/01.test/02.tableTest	0.001s
+		--- FAIL: TestMySum (0.00s)
+			main_test.go:21: Expected 42 got 43
+			main_test.go:21: Expected 84 got 83
+		FAIL
+		exit status 1
+		FAIL	Go-fundamentals/024.Testing/01.test/02.tableTest	0.001s
 	*/
 }

@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(y)
 }
 
-func x()  {
+func x() {
 	fmt.Println("x")
 }
 

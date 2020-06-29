@@ -16,5 +16,3 @@ func mySum(xi ...int) int {
 
 	return sum
 }
-
-

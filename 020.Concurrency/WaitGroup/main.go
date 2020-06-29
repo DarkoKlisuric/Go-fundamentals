@@ -9,9 +9,9 @@ import (
 var wg sync.WaitGroup
 
 func main() {
-	fmt.Println("OS\t", runtime.GOOS) // LINUX
-	fmt.Println("ARCH\t", runtime.GOARCH) // amd64
-	fmt.Println("CPUs\t", runtime.NumCPU()) // 12
+	fmt.Println("OS\t", runtime.GOOS)                   // LINUX
+	fmt.Println("ARCH\t", runtime.GOARCH)               // amd64
+	fmt.Println("CPUs\t", runtime.NumCPU())             // 12
 	fmt.Println("Goroutines\t", runtime.NumGoroutine()) // 01.simple.ChannelsBlock
 
 	wg.Add(1) // Wait to done 01.simple.ChannelsBlock process(go routine), go foo()
@@ -20,7 +20,7 @@ func main() {
 
 	bar()
 
-	fmt.Println("CPUs\t", runtime.NumCPU()) // 12
+	fmt.Println("CPUs\t", runtime.NumCPU())             // 12
 	fmt.Println("Goroutines\t", runtime.NumGoroutine()) // 2
 
 	wg.Wait()

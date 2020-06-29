@@ -7,7 +7,7 @@ import (
 
 type Person struct {
 	FirstName string
-	Age int
+	Age       int
 }
 
 func (p Person) String() string {

@@ -9,7 +9,7 @@ type person struct {
 
 type person2 struct {
 	FirstName string
-	LastName string
+	LastName  string
 }
 
 func (p *person) speak() {
@@ -36,10 +36,10 @@ func main() {
 
 	darko2 := person2{
 		FirstName: "Darko",
-		LastName: "Klisuric",
+		LastName:  "Klisuric",
 	}
-	saySomething(&darko) // Hello
+	saySomething(&darko)  // Hello
 	saySomething(&darko2) // Holla
-	darko.speak() // Hello
-	darko2.speak() // Holla
+	darko.speak()         // Hello
+	darko2.speak()        // Holla
 }

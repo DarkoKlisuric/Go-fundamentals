@@ -19,8 +19,8 @@ func main() {
 	*/
 
 	/**
-		With buffer 2 c := make(chan int, 2)
-		fmt.Println(<-c) // 42
-		fmt.Println(<-c) // 43
-	 */
+	With buffer 2 c := make(chan int, 2)
+	fmt.Println(<-c) // 42
+	fmt.Println(<-c) // 43
+	*/
 }
