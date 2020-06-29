@@ -12,9 +12,9 @@ func main() {
 	fmt.Println("OS\t", runtime.GOOS) // LINUX
 	fmt.Println("ARCH\t", runtime.GOARCH) // amd64
 	fmt.Println("CPUs\t", runtime.NumCPU()) // 12
-	fmt.Println("Goroutines\t", runtime.NumGoroutine()) // 01-simple.ChannelsBlock
+	fmt.Println("Goroutines\t", runtime.NumGoroutine()) // 01.simple.ChannelsBlock
 
-	wg.Add(1) // Wait to done 01-simple.ChannelsBlock process(go routine), go foo()
+	wg.Add(1) // Wait to done 01.simple.ChannelsBlock process(go routine), go foo()
 
 	go foo()
 
@@ -29,9 +29,9 @@ func main() {
 	OS	 linux
 	ARCH	 amd64
 	CPUs	 12
-	Goroutines	 01-simple.ChannelsBlock
+	Goroutines	 01.simple.ChannelsBlock
 	bar 0
-	bar 01-simple.ChannelsBlock
+	bar 01.simple.ChannelsBlock
 	bar 2
 	bar 3
 	bar 4
@@ -43,7 +43,7 @@ func main() {
 	CPUs	 12
 	Goroutines	 2
 	foo 0
-	foo 01-simple.ChannelsBlock
+	foo 01.simple.ChannelsBlock
 	foo 2
 	foo 3
 	foo 4

@@ -28,6 +28,6 @@ func TestMySum(t *testing.T) {
 		main_test.go:21: Expected 84 got 83
 	FAIL
 	exit status 1
-	FAIL	Go-fundamentals/Testing/01-test/02-table-test	0.001s
+	FAIL	Go-fundamentals/024.Testing/01.test/02.tableTest	0.001s
 	*/
 }
