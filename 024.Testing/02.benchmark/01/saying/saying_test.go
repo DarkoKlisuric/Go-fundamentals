@@ -38,3 +38,8 @@ ok  	Go-fundamentals/024.Testing/02.benchmark/01/saying	2.380s
 */
 
 // Running on 12 cores, 20 millions times in 2.3s
+
+// klisuric@klisuric:~/go/src/Go-fundamentals/024.Testing/02.benchmark/01/saying$ go test -coverprofile c.out
+//PASS
+//coverage: 100.0% of statements
+//ok  	Go-fundamentals/024.Testing/02.benchmark/01/saying	0.001s
